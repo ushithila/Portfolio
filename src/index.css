@@ -105,13 +105,13 @@
 @layer base {
   :root {
     --background: #62a9d3;
-    --foreground: #565c74;
+    --foreground: #f17585;
 
     --card: #6bc658;
     --petal: #fbaeb1;
     --stars: #f8f5f3;
 
-    --primary: #f17585;
+    --primary: #f8f5f3;
     --primary-foreground: #ae0947;
 
     --border: #e7e8da;
