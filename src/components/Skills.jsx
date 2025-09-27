@@ -6,7 +6,7 @@ const skill = [
 
 ]
 
-const category = ["all",]
+const category = ["all", "frontend", "backend"]
 
 export const Skills = () => {
     const [activeCategory, setActiveCategory] = useState("all")
