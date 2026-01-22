@@ -13,11 +13,15 @@ export const About = () => {
                     <h3 className="text-2xl font-semibold">
                         Exploring Data, Design, and Development
                     </h3>
-                    <p className="text-muted-foreground"> About me paragaph goes here </p>
-                    <p className="text-muted-foreground"> Passion paragaph goes here </p>
+                    <p className="text-muted-foreground"> I am a current computer science student at Hunter College.  I have experience in Python, C++, and SQL. I am currently an 
+                        Undergraduate Teaching Assistant for an introductory python course at Hunter, where I have developed strong technical and problem-solving skills from helping
+                        students solve programming challenges and reinforce complex programming concepts. I previously interned at Wyndham Hotels & Resorts as a SEO Analyst Intern and 
+                        Mount Sinai as a Data Intern. I am passionate about building technology that improves everyday experiences. My goal is to continue to expand my technical skills and 
+                        eventually work on innovative and creative tech solutions and combine user experience, analytics, and have huge, meaningful impacts! 
+                    </p>
                     <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
                         <a href="#contact" className="nature-button"> {" "} Get In Touch</a>
-                        <a href="" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"> Download Resume</a>
+                        <a href="src\components\Resume_Shithila_Urshi.pdf" download className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"> Download Resume</a>
                     </div>
                 </div>
 
