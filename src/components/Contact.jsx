@@ -42,7 +42,7 @@ export const Contact = () => {
                     <div className="pt-8">
                         <h4 className="font-medium mb-4"> Connect With Me</h4>
                         <div className="flex space-x-4 justify"></div>
-                        <a href="linkedin.com/in/shithila-urshi/" target="_blank">
+                        <a href="linkedin.com/in/shithila-urshi/" target="_blank" className="flex items-center justify-center">
                             <Linkedin />
                         </a>
                     </div>
@@ -67,7 +67,10 @@ export const Contact = () => {
                             <textarea id="message" name="message" required className="w-full px-4 py-3 rounded-md border border-input bg-background focus-outline-hidden focus:ring-2 focus:ring-primary resize-none" placeholder="Message" />
                         </div>
 
-                        <button type="submit" className={cn("")}></button>
+                        <button type="submit" className={cn("nature-button w-full flex items-center justify-center gap-2",)}>
+                            Send Message
+                            <Send size={16} />
+                        </button>
                     </form>
                 </div>
 
