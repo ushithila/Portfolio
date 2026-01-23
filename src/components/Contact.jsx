@@ -1,7 +1,9 @@
-import { Linkedin, Mail, MapPin } from "lucide-react"
+import { Linkedin, Mail, MapPin, Send } from "lucide-react"
 import { cn } from "@/lib/util";
 
 export const Contact = () => {
+
+
     return <section className="py-24 px-4 relative bg-secondary/30">
         <div className="container mx-auto max-w-5xl">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
@@ -68,12 +70,11 @@ export const Contact = () => {
                         </div>
 
                         <button type="submit" className={cn("nature-button w-full flex items-center justify-center gap-2",)}>
-                            Send Message
-                            <Send size={16} />
+                           Send Message
+                           <Send size={16}/>
                         </button>
                     </form>
                 </div>
-
             </div>
         </div>
     </section>
