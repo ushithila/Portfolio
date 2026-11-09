@@ -3,12 +3,21 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react"
 const project = [
     {
         id: 1,
-        title: "Lorem",
-        description: "Ispum",
+        title: "Sustain You",
+        description: "",
+        image: "",
+        tags: ["Javascript", "HTML", "CSS"],
+        demoUrl: "https://ushithila.github.io/index.html ",
+        githubUrl: "https://github.com/ushithila/ushithila.github.io",
+    },
+    {
+        id: 2,
+        title: "Heartbeats",
+        description: "",
         image: "/",
-        tags: ["Languages"],
-        demoUrl: "#",
-        githubUrl: "#",
+        tags: ["Python", "Flask", "Tailwind CSS"],
+        demoUrl: "https://heartbeats-jtlr.onrender.com",
+        githubUrl: "https://github.com/RossNeyman/CTP-fall-project",
     },
 ]
 
@@ -19,7 +28,7 @@ export const Projects = () => {
                 Featured <span className="text-primary"> Projects </span>
             </h2>
             <p className="text-center text-muted-foreground mb-12 max-auto">
-                Project paragraph.
+                Check out some of my projects!
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
